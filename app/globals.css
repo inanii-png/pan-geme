@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* 地図をパステルカラー（可愛い絵本・カフェ風）に変換するフィルター */
+.cute-bakery-map .leaflet-tile-pane {
+  filter: sepia(30%) saturate(140%) brightness(105%) hue-rotate(-10deg);
+}
+
+.cute-bakery-map .leaflet-tile-pane {
+  filter: grayscale(100%) brightness(190%) contrast(60%);
+}
